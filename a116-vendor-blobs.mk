@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
  vendor/micromax/a116/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
  vendor/micromax/a116/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
  vendor/micromax/a116/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+ vendor/micromax/a116/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
  vendor/micromax/a116/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
  vendor/micromax/a116/proprietary/lib/libm4u.so:system/lib/libm4u.so \
  vendor/micromax/a116/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
