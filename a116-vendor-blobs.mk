@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
  vendor/micromax/a116/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
  vendor/micromax/a116/proprietary/vendor/lib/libBLPP.so:system/vendor/lib/libBLPP.so \
  vendor/micromax/a116/proprietary/vendor/lib/hw/gralloc.mt6589.so:system/vendor/lib/hw/gralloc.mt6589.so \
+ vendor/micromax/a116/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
  vendor/micromax/a116/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
  vendor/micromax/a116/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
  vendor/micromax/a116/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
@@ -49,7 +50,6 @@ PRODUCT_COPY_FILES += \
  vendor/micromax/a116/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
  vendor/micromax/a116/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
  vendor/micromax/a116/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
- vendor/micromax/a116/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
  vendor/micromax/a116/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
  vendor/micromax/a116/proprietary/lib/libm4u.so:system/lib/libm4u.so \
  vendor/micromax/a116/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
@@ -57,8 +57,26 @@ PRODUCT_COPY_FILES += \
  vendor/micromax/a116/proprietary/lib/libdpframework_plat.so:system/lib/libdpframework_plat.so \
  vendor/micromax/a116/proprietary/lib/libion.so:system/lib/libion.so \
  vendor/micromax/a116/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
+ vendor/micromax/a116/proprietary/lib/libimageio.so:system/lib/libimageio.so \
+ vendor/micromax/a116/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
+ vendor/micromax/a116/proprietary/lib/libbwc.so:system/lib/libbwc.so \
+ vendor/micromax/a116/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
+ vendor/micromax/a116/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
  vendor/micromax/a116/proprietary/lib/libaed.so:system/lib/libaed.so \
+ vendor/micromax/a116/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
+ vendor/micromax/a116/proprietary/lib/libcam_camera_exif.so:system/lib/libcam_camera_exif.so \
+ vendor/micromax/a116/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
+ vendor/micromax/a116/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
+ vendor/micromax/a116/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
  vendor/micromax/a116/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
+ vendor/micromax/a116/proprietary/lib/lib3a.so:system/lib/lib3a.so \
+ vendor/micromax/a116/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
+ vendor/micromax/a116/proprietary/lib/libmpo.so:system/lib/libmpo.so \
+ vendor/micromax/a116/proprietary/lib/libmpoencoder.so:system/lib/libmpoencoder.so \
+ vendor/micromax/a116/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
+ vendor/micromax/a116/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
+ vendor/micromax/a116/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
+ vendor/micromax/a116/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
  vendor/micromax/a116/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
  vendor/micromax/a116/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
  vendor/micromax/a116/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
